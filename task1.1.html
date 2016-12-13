@@ -3,11 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>task1</title>
-        <style type="text/css">
-            .class{
-            	list-style-type: none;
-            }
-        </style>
     </head>
     <body>
         <h1>网站一级标题</h1>
@@ -37,16 +32,16 @@
         </ul>
         <h3>图片</h3>
            	<ul>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li class="look"style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
-           		<li style="list-style-type: none">好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>     
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li><br>
+           		<li>好看的图片<br><img src="../task1/images/bridge1.jpg" alt="1"></li>
            	</ul>
 
         <h2>最后一篇文章一级标题</h2>
@@ -89,24 +84,32 @@
            			<td colspan="2">1000</td>  
            		</tr>		
             </table>
-        <aside>
-        	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-        	<h2>侧栏注册窗口标题</h2>
-        </aside>
+    	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+    	<h2>侧栏注册窗口标题</h2>
         <form action="http://wickeldsmart.com/hfhtmlcss/contest.php" method="posy">
-        	<p>请输入邮箱地址：<input type="email" name="地址" placeholder="这是一个文本输入框"></p>
+
+        	<label for="email">请输入邮箱地址：</label>
+        	<input type="email" name="地址" id="email">
         	<p>邮箱地址请按要求格式输入</p>
-        	<p>请输入密码：<input type="text" name="password" placeholder="这是一个文本输入框">&nbsp请重复输入密码：<input type="text" name="word" placeholder="这是一个文本输入狂"></p>
+
+        	<label for="p1">请输入密码：<input type="text" name="password" id="p1"></label>
+            请重复输入密码：<input type="text" name="word">
             <p>密码请为6-16位英文数字</p>
-            <p>性别：<input type="radio" name="男或女" value="男" checked>男
-                     <input type="radio" name="男或女" value="女">女 
-               城市：<select name="城市"><option value="北京">北京</option></select>
-               爱好：<input type="checkbox" name="sports" >运动 <input type="checkbox" value="art">艺术 <input type="checkbox" value="科学">科学
-               个人描述：<textarea name="个人描述" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
-               <input type="submit" value="确认提交">
+
+            性别：<input type="radio" name="sex" value="男" checked>男
+                 <input type="radio" name="sex" value="女">女 
+
+            城市：<select name="城市"><option value="北京">北京</option></select>
+
+            爱好：<input type="checkbox" name="sports" value="运动">运动
+                  <input type="checkbox" name="art" value="艺术">艺术	 
+                  <input type="checkbox" name="science" value="科学">科学
+
+            个人描述：<textarea name="个人描述" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+           <input type="submit" value="确认提交">
         </form>
         <footer>
-        	<p>版权所有&#169</p>
+        	<p>版权所有&#169;</p>
         </footer>                    
     </body>
 </html>
